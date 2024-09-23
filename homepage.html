@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBL Smart Bots - Homepage</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome Back!</h2>
+        <p>Your Dashboard</p>
+
+        <div class="admin-section">
+            <h3>Admin Panel</h3>
+            <p>Upload new trading bot content</p>
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" required>
+                <textarea placeholder="Enter description for the bot"></textarea>
+                <button type="submit">Post Bot</button>
+            </form>
+        </div>
+
+        <div>
+            <h3>Available Trading Bots</h3>
+            <p>Here are the top trading bots:</p>
+            <img src="../static/images/bot-icon.png" alt="Bot Icon" style="width: 100px;">
+            <p>Bot 1: Fast & Accurate</p>
+            <p>Bot 2: High Performance</p>
+        </div>
+        
+        <a href="order.html" class="btn">Order Now</a>
+    </div>
+</body>
+</html>
